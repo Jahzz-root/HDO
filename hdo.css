@@ -35,6 +35,10 @@ hr {
 
 }
 
+.toolbar-button:hover {
+  background: #515666 !important;
+}
+
 span.team{
 
     color: #eaa07d !important;
@@ -147,6 +151,24 @@ td.avatar {
 
 #filter_form tr {
   border: none !important;
+}
+
+.create_form {
+     border: none !important;
+}
+
+#request_form {
+  padding: 10px !important;
+}
+
+.emoji-box {
+ 
+  background-color: #191c24 !important;
+  border: 1px solid rgb(37, 42, 55) !important;
+}
+
+.emoji:hover {
+  background-color: #2a2f3e !important;
 }
 
 
@@ -493,10 +515,11 @@ input[type=text],
 select,
 textarea {
     padding: 0 8px;
-    height: 32px;
-    border: 1px solid rgba(255, 255, 255, .08);
-    color: #dedede;
-    background: #17191f
+    padding-top: 0px;
+  height: 32px;
+  border: 1px solid rgb(37, 42, 55);
+  color: #dedede;
+  background: #191c24;
 }
 
 input[type=email]:focus,
@@ -506,7 +529,8 @@ input[type=text]:focus,
 select:focus,
 textarea:focus {
     color: #f4f4f4;
-    border: 1px solid rgba(255, 255, 255, .2)
+    border: 1px solid rgba(141, 173, 191, 0.2);
+
 }
 
 textarea {
@@ -578,6 +602,7 @@ span.size10 {
 .warning,
 strong.important_text {
     color: #ed5454;
+    font-weight: bold;
 }
 
 #seeding>.stat,
@@ -793,7 +818,6 @@ table.box2 {
 #menu>ul li {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    border: 1px solid #12141887;
 }
 
 #menu>ul a {
@@ -801,7 +825,7 @@ table.box2 {
     height: 100%;
     line-height: 50px;
     text-align: center;
-    border-bottom: 2px solid #171a22
+    border-bottom: 1px solid #332f4b
 }
 
 #menu>ul a:hover {
@@ -1556,7 +1580,8 @@ ul.collage_images li a>span {
 .search_form {
     margin: 8px 0;
     overflow: hidden;
-    border-radius: 5px
+    border-radius: 5px;
+    padding-bottom: 5px;
 }
 
 .search_form div.submit {
@@ -1812,7 +1837,8 @@ body {
 .tagth,
 .taguc,
 .tagur {
-    color: #eaa07d
+    color: #eaa07d;
+    font-weight: bold;
 }
 
 .tagfreeleech {
@@ -2332,11 +2358,17 @@ figcaption:hover {
     content: 'TMDB'
 }
 
-#menu ul, #menu>ul :hover {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom: 1px solid transparent;
+
+#menu ul {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 0 15px #444060 !important;
 }
+
+#menu ul, #menu>ul :hover {
+  
+}
+
 
 #torrentsandvotes, #latestposts {
   column-count: 2;
