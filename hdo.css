@@ -157,6 +157,10 @@ td.avatar {
      border: none !important;
 }
 
+#newthreadform {
+  border: none !important;
+}
+
 #request_form {
   padding: 10px !important;
 }
