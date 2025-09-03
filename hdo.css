@@ -4,7 +4,6 @@
 }
 
 
-
 /*GLOBAL*/
 
 hr {
@@ -175,7 +174,6 @@ td.avatar {
 .emoji:hover {
   background-color: #2a2f3e !important;
 }
-
 
 a:active,
 a:focus,
@@ -1217,13 +1215,7 @@ ul.only {
     font-weight: 600
 }
 
-.show_torrents>a:after {
-    content: "â–¶"
-}
 
-.hide_torrents>a:after {
-    content: "â–¼"
-}
 
 .group_torrent .edition_info {
     position: relative;
