@@ -1319,7 +1319,7 @@ ul.only {
 #content .thin>h2,
 #content .thin>h3 {
     margin-top: 16px;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     font-size: 1.4rem !important;
 }
 
