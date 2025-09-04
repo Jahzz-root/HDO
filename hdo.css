@@ -458,8 +458,6 @@ tbody tr:last-child td:last-child {
 .linkbox,
 .linkbox .center {
     text-align: left !important;
-    margin-bottom: 15px !important;
-    margin-top: 10px !important;
     font-size: 0.8rem !important;
 }
 
