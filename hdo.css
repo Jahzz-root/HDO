@@ -190,6 +190,10 @@ textarea:focus {
     
 }
 
+#leeching {
+  padding-left: 10px !important;
+}
+
 #content>.thin,
 .box,
 .box2,
