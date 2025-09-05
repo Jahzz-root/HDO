@@ -2449,6 +2449,7 @@ input[type=submit] {
   touch-action: manipulation;
   vertical-align: baseline;
   white-space: nowrap;
+    margin-top: 10px;
 }
 
 .button-7:hover,
