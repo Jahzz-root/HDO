@@ -596,7 +596,7 @@ span.size10 {
     font-size: 14px
 }
 
-.last_read ::before {
+.last_read::before {
   content: url("https://hd-only.org/static/common/arrow-rw.png");
   display: inline-block;
   margin-left: 3px;
