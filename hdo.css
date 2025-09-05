@@ -457,7 +457,7 @@ tbody tr:last-child td:last-child {
 .colhead_dark td.sign,
 .linkbox,
 .linkbox .center {
-    text-align: left !important;
+    text-align: center;
     font-size: 0.8rem !important;
 }
 
@@ -1217,6 +1217,11 @@ ul.only {
     font-weight: 600
 }
 
+
+
+.hide_torrents > a::after {
+  content: "▼";
+}
 
 
 .group_torrent .edition_info {
