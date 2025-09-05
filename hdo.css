@@ -175,6 +175,10 @@ td.avatar {
   background-color: #2a2f3e !important;
 }
 
+#ft_toggle {
+  margin-top: -10px;
+}
+
 a:active,
 a:focus,
 button:active,
