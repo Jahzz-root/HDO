@@ -594,7 +594,7 @@ span.size10 {
 
 
 .last_read ::before {
-  content: url(/static/common/arrow-rw.png);
+  content: url("https://hd-only.org/static/common/arrow-rw.png");
   display: inline-block;
 }
 
