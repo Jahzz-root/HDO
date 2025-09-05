@@ -1032,6 +1032,10 @@ ul.only {
     padding: 0 8px
 }
 
+.show_torrents>a:after {
+    content: "▶"
+}
+
 #noty_bottomRight_layout_container .noty_buttons {
     padding: 8px !important;
     border: none !important;
