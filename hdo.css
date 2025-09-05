@@ -592,6 +592,12 @@ span.size10 {
     font-size: 14px
 }
 
+
+.last_read ::before {
+  content: url(/static/common/arrow-rw.png);
+  display: inline-block;
+}
+
 .error,
 .invalid,
 .new,
