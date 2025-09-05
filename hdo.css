@@ -596,12 +596,6 @@ span.size10 {
     font-size: 14px
 }
 
-.last_read ::before {
-  content: url("https://hd-only.org/static/common/arrow-rw.png");
-  display: inline-block;
-  margin-left: 3px;
-}
-
 .error,
 .invalid,
 .new,
@@ -762,7 +756,7 @@ table.box2 {
 }
 
 .last_read :before {
-    content: url(/static/common/arrow-rw.png);
+    content: url("https://hd-only.org/static/common/arrow-rw.png");
     display: inline-block
 }
 
