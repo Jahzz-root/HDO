@@ -133,6 +133,10 @@ td.avatar {
   border-radius: 7px;
 }
 
+.manage_form {
+  border: none !important;
+}
+
 #filter_form tr {
   border: none !important;
 }
