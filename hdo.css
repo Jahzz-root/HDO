@@ -1745,6 +1745,7 @@ blockquote {
 .colhead_dark,
 .head {
   background-color: #1e222d;
+  border-bottom: 3px solid #30506d;
 }
 
 body#user form.search_form table.layout {
