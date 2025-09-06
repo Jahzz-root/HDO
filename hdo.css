@@ -1676,15 +1676,10 @@ blockquote {
 }
 
 .tagteam {
-  color: #fff !important;
+  color: #ea5b5b !important;
   white-space: nowrap;
-  padding: 2px;
   float: right;
   margin-right: 10px;
-  background: #2f6763 !important;
-  border-radius: 5px;
-  padding: 3px;
-  font-size: 0.8em;
 }
 
 .group_torrent [title=" ONLY "],
