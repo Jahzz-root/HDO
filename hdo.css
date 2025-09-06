@@ -48,10 +48,9 @@ span.team{
   
 }
 
-#premenu{
-    background: transparent !important;
-    border: 1px solid #2f3442;
-    box-shadow: 0 2px #151515;
+#premenu {
+  border: 1px solid #131415;
+  border-radius: 10px;
 }
 
 .grouptmdb.tooltip:hover {
@@ -1799,9 +1798,11 @@ body {
     box-sizing: border-box;
     line-height: 1.6;
     color: #dedede;
-    background: #191c24;
     font-size: 14px !important;
-    margin: 0
+    margin: 0;
+    background: radial-gradient(circle at top center, #383e4d 0%, #12141a 30%);
+    min-height: 100vh;
+    
 }
 
 .Table {
@@ -2368,7 +2369,6 @@ figcaption:hover {
 #menu ul {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  box-shadow: 0 0 15px #444060 !important;
 }
 
 #menu ul, #menu>ul :hover {
