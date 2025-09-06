@@ -1642,18 +1642,20 @@ blockquote {
 
 #searchbars .search_form input {
   height: 30px;
-  border-radius: 2.5px;
-  border: none;
-  color: #f9f6f6ab;
-  text-shadow: 0 1px #000;
+  border-radius: 8.5px;
+  border: 1px solid #43526f;
+  color: #fdfbfb;
+  text-shadow: 0 1px #04091e;
+  background: #30506d;
+  box-shadow: 0 0 5px #000 inset;
 }
 
 #searchbars .search_form input:focus {
-  background: #191c24;
-  border: 1px solid #3b5066;
-  border-radius: 7px !important;
+  background: #27425a;
+  border: 1px solid #43526f;
+  text-shadow: 0 1px #000 !important;
+  box-shadow: 0 0 5px #000 inset;
 }
-
 #bonus tbody tr:nth-child(odd) {
   background-color: #29262d;
 }
