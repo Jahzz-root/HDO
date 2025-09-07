@@ -1913,7 +1913,7 @@ tr.group {
 }
 
 .group:not(:nth-child(2)) {
-  border-top: 3px dashed #6999a878 !important;
+  border-top: 3px dashed #424a62 !important;
 }
 
 .wysibb
