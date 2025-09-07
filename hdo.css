@@ -809,7 +809,7 @@ table.box2 {
   display: flex;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: #17191f !important;
+  background-color: #1c1f26 !important;
   border-top: 3px solid #17191f;
   border-right: 3px solid #17191f;
   border-left: 3px solid #17191f;
@@ -1748,8 +1748,8 @@ blockquote {
 }
 
 #menu ul li a:hover {
-  background-color: #1e222d;
-  border-bottom: 1px solid #30506d;
+ background-color: #252b3a;
+  border-bottom: 1px solid #505a80;
 }
 
 body#user form.search_form table.layout {
