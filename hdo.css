@@ -44,8 +44,9 @@ span.team {
 }
 
 #premenu {
-  background: transparent !important;
+  background: #13151ab2 !important;
   border: none !important;
+  border-radius: 8px;
 }
 
 .grouptmdb.tooltip:hover {
@@ -809,7 +810,7 @@ table.box2 {
   display: flex;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: #1c1f26 !important;
+  background-color: #13151ab2 !important;
   border-top: 3px solid #17191f;
   border-right: 3px solid #17191f;
   border-left: 3px solid #17191f;
