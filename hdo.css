@@ -826,7 +826,7 @@ table.box2 {
   height: 100%;
   line-height: 50px;
   text-align: center;
-  border-bottom: 3px solid #32384b;
+  border-bottom: 1px solid #32384b;
 }
 
 #menu > ul a:hover {
