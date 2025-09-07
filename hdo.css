@@ -809,10 +809,10 @@ table.box2 {
   display: flex;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: #171a20 !important;
-  border-top: 3px solid #262b3a;
-  border-right: 3px solid #262b3a;
-  border-left: 3px solid #262b3a;
+  background-color: #17191f !important;
+  border-top: 3px solid #17191f;
+  border-right: 3px solid #17191f;
+  border-left: 3px solid #17191f;
 }
 
 
@@ -936,9 +936,9 @@ table.box2 {
   align-items: center;
   background-color: #171a20;
   border-radius: 0 0 5px 5px;
-  border-bottom: 3px solid #262b3a;
-  border-left: 3px solid #262b3a;
-  border-right: 3px solid #262b3a;
+  border-bottom: 3px solid #17191f;
+  border-left: 3px solid #17191f;
+  border-right: 3px solid #17191f;
 }
 
 #searchbars > ul li {
@@ -1648,16 +1648,16 @@ blockquote {
 #searchbars .search_form input {
   height: 30px;
   border-radius: 8.5px;
-  border: 1px solid #43526f;
+  border: 1px solid #2a313e;
   color: #fdfbfb;
   text-shadow: 0 1px #04091e;
-  background: #30506d;
+  background: #363d57;
   box-shadow: 0 0 5px #000 inset;
 }
 
 #searchbars .search_form input:focus {
-  background: #27425a;
-  border: 1px solid #43526f;
+  background: #2a2f44;
+  border: 1px solid #303b51;
   text-shadow: 0 1px #000 !important;
   box-shadow: 0 0 5px #000 inset;
 }
@@ -1749,7 +1749,7 @@ blockquote {
 
 #menu ul li a:hover {
   background-color: #1e222d;
-  border-bottom: 3px solid #30506d;
+  border-bottom: 1px solid #30506d;
 }
 
 body#user form.search_form table.layout {
