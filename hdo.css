@@ -167,6 +167,11 @@ td.avatar {
   margin-top: -10px;
 }
 
+.head .button-7 {
+  background: none !important;
+  color: #dcdee4;
+}
+
 a:active,
 a:focus,
 button:active,
@@ -814,7 +819,6 @@ table.box2 {
   border-right: 3px solid #17191f;
   border-left: 3px solid #17191f;
 }
-
 
 #menu > ul li {
   -ms-flex: 1 1 auto;
@@ -1748,7 +1752,7 @@ blockquote {
 }
 
 #menu ul li a:hover {
- background-color: #252b3a;
+  background-color: #252b3a;
   border-bottom: 1px solid #505a80;
 }
 
