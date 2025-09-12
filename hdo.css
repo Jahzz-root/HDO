@@ -2441,7 +2441,7 @@ figcaption:hover {
 #premenu ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: center;
   gap: 5px;
   font-size: 13px;
 }
